@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(160, 229, 229);
+
+}
+
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+.movieItem  {
+    max-height: 40vh;
+    max-width: 15vw;
+}
+.movieItem img {
+    width: 100%;
+    height: 80%;
+    border-radius: 1rem;
+}
+.movieItem h2 {
+    text-align: center;
+}
+.inputSearch {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: none;
+}
+.inputBtn {
+    width: 4rem;
+    height: 2rem;
+}
+
+.movieDetailsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.imgInnerContainer img {
+width: 20rem;
+height: 25rem;
+border-radius: 2rem;
+}
+.descriptionInnerContainer h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+.descriptionInnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.wishListBtn, .inputBtn,.backBtn, .wishBtn {
+   
+    width: 6rem;
+    height: 3rem;
+    background-color: rgb(7, 156, 156);
+    border-radius: 2rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+    border: none;
+}
+.wishListBtn:hover, .inputBtn:hover, .backBtn:hover, .wishBtn:hover {
+background-color: black;
+color: white;
+cursor: pointer;
+}
+.movieItem{
+    transition: 0.2s;
+}
+.movieItem:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
